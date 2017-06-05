@@ -1,0 +1,19 @@
+{
+  "name": "node-passport-oauth2",
+  "version": "1.0.0",
+  "description": "Minimalistic server to test OAuth2 with Passport.js",
+  "main": "server.js",
+  "scripts": {
+    "build": "yarn",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sekib Omazic",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "passport": "^0.3.0",
+    "passport-github": "^1.0.0"
+  }
+}
